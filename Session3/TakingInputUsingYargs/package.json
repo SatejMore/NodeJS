@@ -1,0 +1,14 @@
+{
+  "name": "yargsinputsample",
+  "version": "1.0.0",
+  "description": "This is sample application which demonstrates use of yargs module.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satej More",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}
