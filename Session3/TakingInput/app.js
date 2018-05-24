@@ -1,6 +1,3 @@
-
-console.log(process.argv)
-
 var option = process.argv[2];
 
 console.log(`command : ${option}`);
