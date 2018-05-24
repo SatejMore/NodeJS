@@ -1,0 +1,14 @@
+{
+  "name": "removingnote",
+  "version": "1.0.0",
+  "description": "Remove note functionality",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Satej More",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}
