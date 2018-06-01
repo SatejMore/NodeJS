@@ -20,7 +20,7 @@ var argv = yargs.
  console.log(`Encoded Address: ${encodedAddress}`);
 
 request({
-    url:`https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`,
+    url:`https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}&key=AIzaSyAyBmqGjT8IVh2Pc9FkaVYLuXVaLEGOkWo`,
     json:true},(error,response,body)=>{
     console.log(`Formatted address: ${body.results[0].formatted_address}`);
     console.log(`Lattitude : ${body.results[0].geometry.location.lat}`);
