@@ -1,0 +1,15 @@
+{
+  "name": "abstractingcallbacks",
+  "version": "1.0.0",
+  "description": "This is sample to demonstrate how to abstract the callbacks",
+  "main": "abstractingcallback.js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satej More",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0",
+    "yargs": "^11.0.0"
+  }
+}
